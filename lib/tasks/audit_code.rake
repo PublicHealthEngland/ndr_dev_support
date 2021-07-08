@@ -579,6 +579,3 @@ Usage:
     end
   end
 end
-
-# Prevent building of un-reviewed gems:
-task build: :'audit:ensure_safe'
